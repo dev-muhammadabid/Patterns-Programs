@@ -183,3 +183,148 @@ Question 9. 0-1 Triangle
       }
 
 */
+
+
+/*
+Question 10. Butterfly Pattern
+*        *
+**      **
+***    ***
+****  ****
+**********
+**********
+****  ****
+***    ***
+**      **
+*        *
+
+        int r = 5;
+        for(int i = 1; i <= r; i++){
+            for(int j = 1; j <= i; j++){
+                System.out.print("*");
+            }
+            int spaces = 2*(r-i);
+            for (int j = 1; j <= spaces; j++){
+                System.out.print(" ");
+            }
+            for(int j = 1; j <= i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for(int i = r; i >= 1; i--){
+            for(int j = 1; j <= i; j++){
+                System.out.print("*");
+            }
+            int spaces = 2*(r-i);
+            for (int j = 1; j <= spaces; j++){
+                System.out.print(" ");
+            }
+            for(int j = 1; j <= i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+*/
+
+
+/*
+Question 11. Solid Rhombus
+    * * * * *
+   * * * * *
+  * * * * *
+ * * * * *
+* * * * *
+
+
+    int r = 5;
+    for (int i = 1; i <= r; i++){
+        for (int j = 1; j <= r-i; j++){
+            System.out.print(" ");
+        }
+        for (int j = 1; j<= r; j++){
+            System.out.print("*"+" ");
+        }
+        System.out.println();
+    }
+*/
+
+
+/*
+Question 12. Numbers Pyramid
+    1
+   2 2
+  3 3 3
+ 4 4 4 4
+5 5 5 5 5
+
+    int r = 5;
+    for (int i = 1; i <= r; i++){
+        for (int j = 1; j <= r-i; j++){
+            System.out.print(" ");
+        }
+        for (int j = 1; j <= i; j++){
+            System.out.print(i + " ");
+        }
+        System.out.println();
+    }
+*/
+
+
+/*
+Question 13. Palindrome Pattern
+    1
+   212
+  32123
+ 4321234
+543212345
+
+    int r = 5;
+    for (int i = 1; i <= r; i++){
+        for (int j = 1; j <= r-i; j++){
+            System.out.print(" ");
+        }
+        for (int j = i; j >= 1; j--){
+            System.out.print(j);
+        }
+        for (int j = 2; j <= i; j++){
+            System.out.print(j);
+        }
+        System.out.println();
+    }
+*/
+
+
+/*
+Question 14. Diamond Pattern
+     *
+    ***
+   *****
+  *******
+  *******
+   *****
+    ***
+    *
+
+     int r = 4;
+   for (int i = 1; i <= r; i++){
+       for (int j = 1; j <= r-i; j++){
+           System.out.print(" ");
+       }
+       for (int j = 1; j <= 2*i-1; j++){
+           System.out.print("*");
+       }
+       System.out.println();
+   }
+   for (int i = r; i >= 1; i--){
+       for (int j = 1; j <= r-i; j++){
+           System.out.print(" ");
+       }
+       for (int j = 1; j <= 2*i-1; j++){
+           System.out.print("*");
+       }
+       System.out.println();
+        }
+
+*/
