@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Main{
     public static void main(String args[]){
-        System.out.println("Patterns Program");
+        System.out.println("Pattern Programs");
     }
 }
 
@@ -104,7 +104,29 @@ Question 5. Inverted Half Pyramid
 
 
 /*
-Question 6. Half Pyramid with Numbers
+Question 6. ReversedInverted Half Pyramid
+ ******
+  *****
+   ****
+    ***
+     **
+      *
+
+        int r = 5;  //r = rows
+       for (int i = 0; i <= r ; i++) {
+            for (int j = 0; j <= i; j++){
+                System.out.print(" ");
+            }
+            for (int j = r; j >= i; j--){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+*/
+
+
+/*
+Question 7. Half Pyramid with Numbers
 1
 1 2
 1 2 3
@@ -122,7 +144,7 @@ Question 6. Half Pyramid with Numbers
 
 
 /*
-Question 7. Inverted Half Pyramid with Numbers
+Question 8. Inverted Half Pyramid with Numbers
 1 2 3 4 5
 1 2 3 4
 1 2 3
@@ -140,7 +162,7 @@ Question 7. Inverted Half Pyramid with Numbers
 
 
 /*
-Question 8. Floyd's Triangle
+Question 9. Floyd's Triangle
 1
 2 3
 4 5 6
@@ -160,7 +182,7 @@ Question 8. Floyd's Triangle
 
 
 /*
-Question 9. 0-1 Triangle
+Question 10. 0-1 Triangle
 1
 0 1
 1 0 1
@@ -186,7 +208,7 @@ Question 9. 0-1 Triangle
 
 
 /*
-Question 10. Butterfly Pattern
+Question 11. Butterfly Pattern
 *        *
 **      **
 ***    ***
@@ -230,7 +252,7 @@ Question 10. Butterfly Pattern
 
 
 /*
-Question 11. Solid Rhombus
+Question 12. Solid Rhombus
     * * * * *
    * * * * *
   * * * * *
@@ -252,7 +274,7 @@ Question 11. Solid Rhombus
 
 
 /*
-Question 12. Numbers Pyramid
+Question 13. Numbers Pyramid
     1
    2 2
   3 3 3
@@ -273,7 +295,7 @@ Question 12. Numbers Pyramid
 
 
 /*
-Question 13. Palindrome Pattern
+Question 14. Palindrome Pattern
     1
    212
   32123
@@ -297,7 +319,7 @@ Question 13. Palindrome Pattern
 
 
 /*
-Question 14. Diamond Pattern
+Question 15. Diamond Pattern
      *
     ***
    *****
@@ -331,7 +353,7 @@ Question 14. Diamond Pattern
 
 
 /*
-Question 15. Solid Rhombus
+Question 16. Solid Rhombus
     * * * * *
    *       *
   *       *
